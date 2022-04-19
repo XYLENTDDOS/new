@@ -7,46 +7,6 @@ import sys
 import os
 from os import system, name
 
-os.system("figlet DDOS ATTACK -f slant")
-
-os.system("clear")
-for i in range(1):
-    pwd = input("""\033[91m
-█▄─█▀▀▀█─▄█▄─▄▄─█▄─▄███─▄▄▄─█─▄▄─█▄─▀█▀─▄█▄─▄▄─█
-██─█─█─█─███─▄█▀██─██▀█─███▀█─██─██─█▄█─███─▄█▀█
-▀▀▄▄▄▀▄▄▄▀▀▄▄▄▄▄▀▄▄▄▄▄▀▄▄▄▄▄▀▄▄▄▄▀▄▄▄▀▄▄▄▀▄▄▄▄▄▀
-
-█─▄─▄─█─▄▄─███▄─▄▄▀█▄─▄▄▀█─▄▄─█─▄▄▄▄█
-███─███─██─████─██─██─██─█─██─█▄▄▄▄─█
-▀▀▄▄▄▀▀▄▄▄▄▀▀▀▄▄▄▄▀▀▄▄▄▄▀▀▄▄▄▄▀▄▄▄▄▄▀
-tekan enter untuk lanjut""")
-print("\033[36m")
-
-os.system("clear")
-print("""
-██████╗░░░██╗██╗░░░░██╗███████╗
-╚════██╗░██╔╝██║░░░██╔╝╚════██║
-░░███╔═╝██╔╝░██║░░██╔╝░░░░░██╔╝
-██╔══╝░░███████║░██╔╝░░░░░██╔╝░
-███████╗╚════██║██╔╝░░░░░██╔╝░░
-╚══════╝░░░░░╚═╝╚═╝░░░░░░╚═╝░░░""")
-password ='24/7'
-
-for i in range(3):
-    pwd = input("[+] masukin Akun : ")
-    j=3
-    if(pwd==password):
-        time.sleep(2)
-        print("[-] Tunggu masih proses!!! ")
-        break
-    else:
-        time.sleep(3)
-        print("[×] password salah!!! ")
-        continue
-time.sleep(2)
-print("[√] login sukses")
-time.sleep(2)
-
 os.system("clear")
 print("""\033[35m
 ██████╗░░░██╗██╗░░░░██╗███████╗
